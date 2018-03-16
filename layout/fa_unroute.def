@@ -1,0 +1,113 @@
+VERSION 5.6 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "<>" ;
+DESIGN fa ;
+UNITS DISTANCE MICRONS 100 ;
+
+DIEAREA ( -480.0 0.0 ) ( 7840.0 2400.0 ) ;
+
+TRACKS Y 0.0 DO 13 STEP 200 LAYER metal1 ;
+TRACKS X -480.0 DO 53 STEP 160.0 LAYER metal2 ;
+TRACKS Y 0.0 DO 13 STEP 200 LAYER metal3 ;
+TRACKS X -480.0 DO 27 STEP 320.0 LAYER metal4 ;
+
+COMPONENTS 11 ;
+- OR2X2_1 OR2X2 + PLACED ( 80.0 100 ) FS ;
+- NAND2X1_1 NAND2X1 + PLACED ( 720.0 100 ) FS ;
+- NOR2X1_1 NOR2X1 + PLACED ( 1200.0 100 ) FS ;
+- AND2X2_1 AND2X2 + PLACED ( 1680.0 100 ) FS ;
+- NAND3X1_1 NAND3X1 + PLACED ( 2320.0 100 ) S ;
+- INVX1_1 INVX1 + PLACED ( 2960.0 100 ) S ;
+- OAI21X1_1 OAI21X1 + PLACED ( 3280.0 100 ) FS ;
+- AOI21X1_1 AOI21X1 + PLACED ( 3920.0 100 ) FS ;
+- DFFPOSX1_1 DFFPOSX1 + PLACED ( 4560.0 100 ) FS ;
+- BUFX2_2 BUFX2 + PLACED ( 6480.0 100 ) FS ;
+- BUFX2_1 BUFX2 + PLACED ( 6960.0 100 ) FS ;
+END COMPONENTS
+
+PINS 7 ;
+- ck + NET ck
+  + LAYER metal2 ( 0 0 ) ( 1 1 )
+  + PLACED ( 4960.0 2400.0 ) N ;
+- rst + NET rst
+  + LAYER metal2 ( 0 0 ) ( 1 1 )
+  + PLACED ( 4480.0 2400.0 ) N ;
+- a + NET a
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( -160.0 1800.0 ) N ;
+- b + NET b
+  + LAYER metal2 ( 0 0 ) ( 1 1 )
+  + PLACED ( 3200.0 2400.0 ) N ;
+- ci + NET ci
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( -160.0 1400.0 ) N ;
+- s + NET s
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( 7680.0 1200.0 ) N ;
+- co + NET co
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( 7680.0 1600.0 ) N ;
+END PINS
+
+NETS 17 ;
+- a
+  ( PIN a ) 
+  ( NOR2X1_1 A ) 
+  ( NAND2X1_1 A ) 
+  ( OR2X2_1 A ) 
+  ( AND2X2_1 A ) ;
+- ci
+  ( PIN ci ) 
+  ( NOR2X1_1 B ) 
+  ( NAND2X1_1 B ) 
+  ( OR2X2_1 B ) 
+  ( AND2X2_1 B ) ;
+- _5_
+  ( OAI21X1_1 B ) 
+  ( AND2X2_1 Y ) ;
+- _4_
+  ( NOR2X1_1 Y ) 
+  ( OAI21X1_1 A ) ;
+- b
+  ( PIN b ) 
+  ( INVX1_1 A ) 
+  ( OAI21X1_1 C ) ;
+- _6_
+  ( AOI21X1_1 B ) 
+  ( OAI21X1_1 Y ) ;
+- _7_
+  ( NAND3X1_1 A ) 
+  ( INVX1_1 Y ) ;
+- _1_
+  ( NAND3X1_1 C ) 
+  ( OR2X2_1 Y ) ;
+- _2_
+  ( NAND3X1_1 B ) 
+  ( NAND2X1_1 Y ) ;
+- _3_
+  ( AOI21X1_1 A ) 
+  ( NAND3X1_1 Y ) ;
+- rst
+  ( PIN rst ) 
+  ( AOI21X1_1 C ) ;
+- _0_
+  ( DFFPOSX1_1 D ) 
+  ( AOI21X1_1 Y ) ;
+- gnd
+  ( BUFX2_1 A ) ;
+- co
+  ( PIN co ) 
+  ( BUFX2_1 Y ) ;
+- _8_
+  ( DFFPOSX1_1 Q ) 
+  ( BUFX2_2 A ) ;
+- s
+  ( PIN s ) 
+  ( BUFX2_2 Y ) ;
+- ck
+  ( PIN ck ) 
+  ( DFFPOSX1_1 CLK ) ;
+END NETS
+
+END DESIGN

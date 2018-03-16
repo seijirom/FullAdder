@@ -1,0 +1,247 @@
+Qflow route logfile created on 2018年 3月 15日 木曜日 17:18:16 JST
+Qrouter detail maze router version 1.3.91.T
+No Top-level Tk window available. . .
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+LEF Read, Line 106: Don't know how to parse layer "via1"
+LEF Read, Line 107: No layer defined for RECT.
+LEF Read, Line 115: Don't know how to parse layer "via2"
+LEF Read, Line 116: No layer defined for RECT.
+LEF Read, Line 124: Don't know how to parse layer "via3"
+LEF Read, Line 125: No layer defined for RECT.
+LEF Read, Line 131: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 135: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 136: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 140: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 141: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 142: Don't know how to parse layer "via1"
+LEF Read, Line 143: No layer defined for RECT.
+LEF Read, Line 147: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 151: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 152: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 156: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 157: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 158: Don't know how to parse layer "via2"
+LEF Read, Line 159: No layer defined for RECT.
+LEF Read, Line 163: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 167: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 168: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 172: Unknown keyword "OVERHANG" in LEF file; ignoring.
+LEF Read, Line 173: Unknown keyword "METALOVERHANG" in LEF file; ignoring.
+LEF Read, Line 174: Don't know how to parse layer "via3"
+LEF Read, Line 175: No layer defined for RECT.
+LEF Read, Line 179: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 186: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 193: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF Read, Line 200: Unknown keyword "GENERATE" in LEF file; ignoring.
+LEF file:  Defines site corner (ignored)
+LEF file:  Defines site IO (ignored)
+LEF file:  Defines site core (ignored)
+LEF Read, Line 235: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 244: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 277: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 297: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 345: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 365: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 420: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 443: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 499: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 522: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 556: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 575: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 611: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 632: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 674: Don't know how to parse layer "via1"
+LEF Read, Line 700: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 713: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 766: Don't know how to parse layer "via1"
+LEF Read, Line 809: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 835: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 908: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 921: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 970: Don't know how to parse layer "via1"
+LEF Read, Line 1054: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1068: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1115: Don't know how to parse layer "via1"
+LEF Read, Line 1140: Don't know how to parse layer "via1"
+LEF Read, Line 1188: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1200: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1235: Don't know how to parse layer "via1"
+LEF Read, Line 1258: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1275: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1301: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1318: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1344: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1362: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1389: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1412: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1447: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1466: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1507: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1531: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1565: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1587: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1630: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1651: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1706: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1728: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1771: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1793: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1838: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1859: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1902: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1923: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1968: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 1989: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2044: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2067: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2109: Don't know how to parse layer "via1"
+LEF Read, Line 2151: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2174: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2210: Don't know how to parse layer "via1"
+LEF Read, Line 2233: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2256: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2295: Don't know how to parse layer "via1"
+LEF Read, Line 2340: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2351: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read, Line 2374: Don't know how to parse layer "via1"
+LEF Read, Line 2437: Unknown keyword "SHAPE" in LEF file; ignoring.
+LEF Read:  Further errors will not be reported.
+LEF read: Processed 3179 lines.
+LEF Read: encountered 110 errors total.
+Multiple vertical route layers at different pitches.  Using smaller pitch 1.6, will route on 1-of-N tracks if necessary.
+Reading DEF data from file fa.def.
+Diagnostic: Design name: "fa"
+Multiple vertical route layers at different pitches.  Using pitch 1.6 and routing on 1-of-N tracks for larger pitches.
+Multiple vertical route layers at different pitches.  Using pitch 1.6 and routing on 1-of-N tracks for larger pitches.
+  Processed 11 subcell instances total.
+  Processed 7 pins total.
+  Processed 17 nets total.
+DEF read: Processed 113 lines.
+Output scale = microns / 100, precision 1
+There are 17 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net a
+Nets remaining: 16
+Finished routing net ci
+Nets remaining: 15
+Finished routing net b
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _6_
+Nets remaining: 11
+Finished routing net _7_
+Nets remaining: 10
+Finished routing net _1_
+Nets remaining: 9
+Finished routing net _2_
+Nets remaining: 8
+Finished routing net _3_
+Nets remaining: 7
+Finished routing net rst
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net co
+Nets remaining: 4
+Finished routing net _8_
+Nets remaining: 3
+Finished routing net s
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 24
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net a
+Nets remaining: 16
+Finished routing net ci
+Nets remaining: 15
+Finished routing net b
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _6_
+Nets remaining: 11
+Finished routing net _7_
+Nets remaining: 10
+Finished routing net _1_
+Nets remaining: 9
+Finished routing net _2_
+Nets remaining: 8
+Finished routing net _3_
+Nets remaining: 7
+Finished routing net rst
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net co
+Nets remaining: 4
+Finished routing net _8_
+Nets remaining: 3
+Finished routing net s
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 48
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net a
+Nets remaining: 16
+Finished routing net ci
+Nets remaining: 15
+Finished routing net b
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _6_
+Nets remaining: 11
+Finished routing net _7_
+Nets remaining: 10
+Finished routing net _1_
+Nets remaining: 9
+Finished routing net _2_
+Nets remaining: 8
+Finished routing net _3_
+Nets remaining: 7
+Finished routing net rst
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net co
+Nets remaining: 4
+Finished routing net _8_
+Nets remaining: 3
+Finished routing net s
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 72
+No failed routes!
+----------------------------------------------
+*** Writing DEF file fa_route.def
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+Route segment 1 was not walked!
+Router script ended on 2018年 3月 15日 木曜日 17:18:19 JST
