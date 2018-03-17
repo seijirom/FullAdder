@@ -38,7 +38,7 @@ module fa_tb();
         #100; i <= 3'b101;
         #100; i <= 3'b110;
         #100; i <= 3'b111;
-        #20000 $finish;
+        #500 $finish;
     end
 
     fa fa(.ck(ck), .rst(rst), .a(a), .b(b), .ci(ci), .s(s), .co(co));
