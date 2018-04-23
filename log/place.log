@@ -1,4 +1,4 @@
-Qflow placement logfile created on 2018年 3月 15日 木曜日 17:17:48 JST
+Qflow placement logfile created on 2018年 4月 24日 火曜日 00:37:32 JST
 Running blif2cel.tcl
 Opened LEF file (/usr/local/share/qflow/tech/osu035/osu035_stdcells.lef) for reading...
 Opened BLIF file (/mnt/c/Users/seijirom/AppData/Roaming/ALB/qflow_assistant/Full_Adder_HEAD/synthesis/fa.blif) for reading ...
@@ -273,4 +273,4 @@ Files:
 
 Running blif2Verilog.
 Running blif2BSpice.
-Placement script ended on 2018年 3月 15日 木曜日 17:18:13 JST
+Placement script ended on 2018年 4月 24日 火曜日 00:37:40 JST

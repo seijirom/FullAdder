@@ -1,4 +1,4 @@
-Qflow route logfile created on 2018年 3月 15日 木曜日 17:18:16 JST
+Qflow route logfile created on 2018年 4月 24日 火曜日 00:37:41 JST
 Qrouter detail maze router version 1.3.91.T
 No Top-level Tk window available. . .
 Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
@@ -244,4 +244,4 @@ No failed routes!
 Final: No failed routes!
 ----------------------------------------------
 Route segment 1 was not walked!
-Router script ended on 2018年 3月 15日 木曜日 17:18:19 JST
+Router script ended on 2018年 4月 24日 火曜日 00:37:42 JST

@@ -20,14 +20,14 @@ ANOR2X1_1 [a ci] _4_ d_lut_NOR2X1
 .model dzero d_pulldown(load=1p)
 .model done d_pullup(load=1p)
 
-AD2A1 [co] [a_co] toana_3v
-AA2D1 [a_a] [a] todig_3v
-AA2D2 [a_gnd] [gnd] todig_3v
-AD2A2 [s] [a_s] toana_3v
-AA2D3 [a_rst] [rst] todig_3v
-AA2D4 [a_ck] [ck] todig_3v
-AA2D5 [a_ci] [ci] todig_3v
-AA2D6 [a_b] [b] todig_3v
+AA2D1 [a_ck] [ck] todig_3v
+AA2D2 [a_rst] [rst] todig_3v
+AA2D3 [a_a] [a] todig_3v
+AD2A1 [s] [a_s] toana_3v
+AA2D4 [a_ci] [ci] todig_3v
+AA2D5 [a_b] [b] todig_3v
+AA2D6 [a_gnd] [gnd] todig_3v
+AD2A2 [co] [a_co] toana_3v
 
 .ends fa
  
