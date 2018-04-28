@@ -3,15 +3,22 @@
 .model fa
 .inputs ck rst a b ci
 .outputs s co
-.gate AND2X2 A=a B=ci Y=_5_
-.gate OAI21X1 A=_4_ B=_5_ C=b Y=_6_
-.gate INVX1 A=b Y=_7_
-.gate OR2X2 A=a B=ci Y=_1_
-.gate NAND2X1 A=a B=ci Y=_2_
-.gate NAND3X1 A=_7_ B=_2_ C=_1_ Y=_3_
-.gate AOI21X1 A=_3_ B=_6_ C=rst Y=_0_
+.gate INVX1 A=rst Y=_11_
+.gate INVX1 A=ci Y=_12_
+.gate INVX1 A=a Y=_13_
+.gate NAND2X1 A=_15_ B=_1_ Y=_14_
+.gate NAND2X1 A=ci B=a Y=_1_
+.gate NAND2X1 A=_3_ B=_2_ Y=_2_
+.gate NAND2X1 A=b B=_4_ Y=_3_
+.gate INVX1 A=b Y=_4_
+.gate NAND2X1 A=ci B=_1_ Y=_5_
+.gate NAND2X1 A=a B=_15_ Y=_6_
+.gate NAND2X1 A=_7_ B=_8_ Y=_7_
+.gate NAND2X1 A=_6_ B=_9_ Y=_8_
+.gate NAND2X1 A=_5_ B=_10_ Y=_9_
+.gate NAND2X1 A=_14_ B=_11_ Y=_10_
+.gate INVX1 A=_12_ Y=_0_
+.gate BUFX2 A=_15_ Y=s
 .gate BUFX2 A=gnd Y=co
-.gate BUFX2 A=_8_ Y=s
-.gate DFFPOSX1 CLK=ck D=_0_ Q=_8_
-.gate NOR2X1 A=a B=ci Y=_4_
+.gate DFFPOSX1 CLK=ck D=_0_ Q=_15_
 .end

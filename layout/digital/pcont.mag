@@ -1,0 +1,10 @@
+magic
+tech scmos
+timestamp 1524640050
+<< checkpaint >>
+rect -35 -35 35 35
+<< fillm2 >>
+rect -5 -5 5 5
+<< labels >>
+flabel fillm2 0 0 0 0 0 FreeSans 12 0 0 0 pcont
+<< end >>

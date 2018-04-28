@@ -1,0 +1,64 @@
+magic
+tech scmos
+magscale 1 4
+timestamp 1524640050
+<< checkpaint >>
+rect -114 -130 236 750
+use nsubcont  nsubcont_0
+timestamp 1524640050
+transform 1 0 70 0 1 590
+box -40 -40 40 40
+use dcont  dcont_0
+timestamp 1524640050
+transform 1 0 36 0 1 490
+box -20 -20 20 20
+use dcont  dcont_1
+timestamp 1524640050
+transform 1 0 36 0 1 450
+box -20 -20 20 20
+use dcont  dcont_2
+timestamp 1524640050
+transform 1 0 36 0 1 410
+box -20 -20 20 20
+use dcont  dcont_3
+timestamp 1524640050
+transform 1 0 96 0 1 490
+box -20 -20 20 20
+use dcont  dcont_4
+timestamp 1524640050
+transform 1 0 96 0 1 450
+box -20 -20 20 20
+use dcont  dcont_5
+timestamp 1524640050
+transform 1 0 96 0 1 410
+box -20 -20 20 20
+use Via  Via_0
+timestamp 1524640050
+transform 1 0 40 0 1 310
+box 0 0 1 1
+use pcont  pcont_0
+timestamp 1524640050
+transform 1 0 40 0 1 310
+box -20 -20 20 20
+use Via  Via_1
+timestamp 1524640050
+transform 1 0 100 0 1 226
+box 0 0 1 1
+use dcont  dcont_6
+timestamp 1524640050
+transform 1 0 36 0 1 74
+box -20 -20 20 20
+use dcont  dcont_7
+timestamp 1524640050
+transform 1 0 96 0 1 74
+box -20 -20 20 20
+use psubcont  psubcont_0
+timestamp 1524640050
+transform 1 0 80 0 1 10
+box -20 -20 20 20
+<< labels >>
+flabel space 40 328 40 328 2 FreeSans 160 0 0 0 A
+flabel space 6 570 6 570 2 FreeSans 160 0 0 0 VDD
+flabel space 6 20 6 20 2 FreeSans 160 0 0 0 VSS
+flabel space 88 244 88 244 2 FreeSans 160 0 0 0 YB
+<< end >>

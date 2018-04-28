@@ -1,0 +1,9 @@
+magic
+tech scmos
+magscale 1 4
+timestamp 1524640050
+<< checkpaint >>
+rect -120 -120 121 121
+<< labels >>
+flabel space 0 0 0 0 0 FreeSans 48 0 0 0 via
+<< end >>
