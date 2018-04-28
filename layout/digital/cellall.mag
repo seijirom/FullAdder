@@ -1,0 +1,131 @@
+magic
+tech scmos
+magscale 1 4
+timestamp 1524640050
+<< checkpaint >>
+rect -115 -130 8647 1400
+use inv1  inv1_0
+timestamp 1524640050
+transform 1 0 0 0 1 650
+box 6 -10 116 630
+use inv2  inv2_0
+timestamp 1524640050
+transform 1 0 130 0 1 650
+box 6 -10 176 630
+use inv4  inv4_0
+timestamp 1524640050
+transform 1 0 320 0 1 650
+box 6 -10 296 630
+use inv8  inv8_0
+timestamp 1524640050
+transform 1 0 630 0 1 650
+box 6 -10 536 630
+use na21  na21_0
+timestamp 1524640050
+transform 1 0 1180 0 1 650
+box 6 -10 176 630
+use na212  na212_0
+timestamp 1524640050
+transform 1 0 1370 0 1 650
+box 6 -10 236 630
+use na222  na222_0
+timestamp 1524640050
+transform 1 0 1620 0 1 650
+box 6 -10 296 630
+use na31  na31_0
+timestamp 1524640050
+transform 1 0 1930 0 1 650
+box 6 -10 236 630
+use na41  na41_0
+timestamp 1524640050
+transform 1 0 2180 0 1 650
+box 6 -10 296 630
+use nr21  nr21_0
+timestamp 1524640050
+transform 1 0 2490 0 1 650
+box 6 -10 176 630
+use nr212  nr212_0
+timestamp 1524640050
+transform 1 0 2680 0 1 650
+box 6 -10 236 630
+use nr222  nr222_0
+timestamp 1524640050
+transform 1 0 2930 0 1 650
+box 6 -10 296 630
+use nr31  nr31_0
+timestamp 1524640050
+transform 1 0 3240 0 1 650
+box 6 -10 236 630
+use or21  or21_0
+timestamp 1524640050
+transform 1 0 3490 0 1 650
+box 6 -10 236 630
+use or31  or31_0
+timestamp 1524640050
+transform 1 0 3740 0 1 650
+box 6 -10 296 630
+use rff1  rff1_0
+timestamp 1524640050
+transform 1 0 4050 0 1 650
+box 6 -10 1106 630
+use rff1m2  rff1m2_0
+timestamp 1524640050
+transform 1 0 5170 0 1 650
+box 6 -10 1106 630
+use sff1  sff1_0
+timestamp 1524640050
+transform 1 0 6290 0 1 650
+box 6 -10 1106 630
+use sff1m2  sff1m2_0
+timestamp 1524640050
+transform 1 0 7410 0 1 650
+box 6 -10 1106 630
+use an21  an21_0
+timestamp 1524640050
+transform 1 0 0 0 1 0
+box 6 -10 236 630
+use an31  an31_0
+timestamp 1524640050
+transform 1 0 250 0 1 0
+box 6 -10 296 630
+use an41  an41_0
+timestamp 1524640050
+transform 1 0 560 0 1 0
+box 6 -10 356 630
+use buf1  buf1_0
+timestamp 1524640050
+transform 1 0 930 0 1 0
+box 6 -10 176 630
+use buf2  buf2_0
+timestamp 1524640050
+transform 1 0 1120 0 1 0
+box 6 -10 236 630
+use buf4  buf4_0
+timestamp 1524640050
+transform 1 0 1370 0 1 0
+box 6 -10 356 630
+use buf8  buf8_0
+timestamp 1524640050
+transform 1 0 1740 0 1 0
+box 6 -10 596 630
+use cinv  cinv_0
+timestamp 1524640050
+transform 1 0 2350 0 1 0
+box 6 -10 216 630
+use dff1  dff1_0
+timestamp 1524640050
+transform 1 0 2580 0 1 0
+box 6 -10 1026 630
+use dff1m2  dff1m2_0
+timestamp 1524640050
+transform 1 0 3620 0 1 0
+box 6 -10 1026 630
+use exnr  exnr_0
+timestamp 1524640050
+transform 1 0 4660 0 1 0
+box 6 -10 406 630
+use exor  exor_0
+timestamp 1524640050
+transform 1 0 5080 0 1 0
+box 6 -10 406 630
+<< end >>

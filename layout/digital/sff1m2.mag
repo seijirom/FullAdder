@@ -1,0 +1,414 @@
+magic
+tech scmos
+magscale 1 4
+timestamp 1524640050
+<< checkpaint >>
+rect -114 -130 1226 750
+use nsubcont  nsubcont_0
+timestamp 1524640050
+transform 1 0 204 0 1 590
+box -40 -40 40 40
+use nsubcont  nsubcont_1
+timestamp 1524640050
+transform 1 0 554 0 1 590
+box -40 -40 40 40
+use nsubcont  nsubcont_2
+timestamp 1524640050
+transform 1 0 1000 0 1 590
+box -40 -40 40 40
+use dcont  dcont_0
+timestamp 1524640050
+transform 1 0 36 0 1 516
+box -20 -20 20 20
+use dcont  dcont_1
+timestamp 1524640050
+transform 1 0 36 0 1 476
+box -20 -20 20 20
+use dcont  dcont_2
+timestamp 1524640050
+transform 1 0 36 0 1 436
+box -20 -20 20 20
+use dcont  dcont_3
+timestamp 1524640050
+transform 1 0 96 0 1 516
+box -20 -20 20 20
+use dcont  dcont_4
+timestamp 1524640050
+transform 1 0 96 0 1 476
+box -20 -20 20 20
+use dcont  dcont_5
+timestamp 1524640050
+transform 1 0 96 0 1 436
+box -20 -20 20 20
+use dcont  dcont_6
+timestamp 1524640050
+transform 1 0 156 0 1 516
+box -20 -20 20 20
+use dcont  dcont_7
+timestamp 1524640050
+transform 1 0 156 0 1 476
+box -20 -20 20 20
+use dcont  dcont_8
+timestamp 1524640050
+transform 1 0 156 0 1 436
+box -20 -20 20 20
+use dcont  dcont_9
+timestamp 1524640050
+transform 1 0 226 0 1 516
+box -20 -20 20 20
+use dcont  dcont_10
+timestamp 1524640050
+transform 1 0 226 0 1 476
+box -20 -20 20 20
+use dcont  dcont_11
+timestamp 1524640050
+transform 1 0 226 0 1 436
+box -20 -20 20 20
+use dcont  dcont_12
+timestamp 1524640050
+transform 1 0 326 0 1 516
+box -20 -20 20 20
+use dcont  dcont_13
+timestamp 1524640050
+transform 1 0 326 0 1 476
+box -20 -20 20 20
+use dcont  dcont_14
+timestamp 1524640050
+transform 1 0 326 0 1 436
+box -20 -20 20 20
+use dcont  dcont_15
+timestamp 1524640050
+transform 1 0 426 0 1 516
+box -20 -20 20 20
+use dcont  dcont_16
+timestamp 1524640050
+transform 1 0 426 0 1 476
+box -20 -20 20 20
+use dcont  dcont_17
+timestamp 1524640050
+transform 1 0 426 0 1 436
+box -20 -20 20 20
+use dcont  dcont_18
+timestamp 1524640050
+transform 1 0 486 0 1 516
+box -20 -20 20 20
+use dcont  dcont_19
+timestamp 1524640050
+transform 1 0 486 0 1 476
+box -20 -20 20 20
+use dcont  dcont_20
+timestamp 1524640050
+transform 1 0 546 0 1 516
+box -20 -20 20 20
+use dcont  dcont_21
+timestamp 1524640050
+transform 1 0 546 0 1 476
+box -20 -20 20 20
+use dcont  dcont_22
+timestamp 1524640050
+transform 1 0 646 0 1 516
+box -20 -20 20 20
+use dcont  dcont_23
+timestamp 1524640050
+transform 1 0 646 0 1 476
+box -20 -20 20 20
+use dcont  dcont_24
+timestamp 1524640050
+transform 1 0 486 0 1 436
+box -20 -20 20 20
+use dcont  dcont_25
+timestamp 1524640050
+transform 1 0 646 0 1 436
+box -20 -20 20 20
+use dcont  dcont_26
+timestamp 1524640050
+transform 1 0 746 0 1 516
+box -20 -20 20 20
+use dcont  dcont_27
+timestamp 1524640050
+transform 1 0 746 0 1 476
+box -20 -20 20 20
+use dcont  dcont_28
+timestamp 1524640050
+transform 1 0 746 0 1 436
+box -20 -20 20 20
+use dcont  dcont_29
+timestamp 1524640050
+transform 1 0 806 0 1 516
+box -20 -20 20 20
+use dcont  dcont_30
+timestamp 1524640050
+transform 1 0 806 0 1 476
+box -20 -20 20 20
+use dcont  dcont_31
+timestamp 1524640050
+transform 1 0 806 0 1 436
+box -20 -20 20 20
+use dcont  dcont_32
+timestamp 1524640050
+transform 1 0 866 0 1 516
+box -20 -20 20 20
+use dcont  dcont_33
+timestamp 1524640050
+transform 1 0 866 0 1 476
+box -20 -20 20 20
+use dcont  dcont_34
+timestamp 1524640050
+transform 1 0 866 0 1 436
+box -20 -20 20 20
+use dcont  dcont_35
+timestamp 1524640050
+transform 1 0 966 0 1 516
+box -20 -20 20 20
+use dcont  dcont_36
+timestamp 1524640050
+transform 1 0 966 0 1 476
+box -20 -20 20 20
+use dcont  dcont_37
+timestamp 1524640050
+transform 1 0 966 0 1 436
+box -20 -20 20 20
+use dcont  dcont_38
+timestamp 1524640050
+transform 1 0 1026 0 1 516
+box -20 -20 20 20
+use dcont  dcont_39
+timestamp 1524640050
+transform 1 0 1026 0 1 476
+box -20 -20 20 20
+use dcont  dcont_40
+timestamp 1524640050
+transform 1 0 1026 0 1 436
+box -20 -20 20 20
+use dcont  dcont_41
+timestamp 1524640050
+transform 1 0 1086 0 1 516
+box -20 -20 20 20
+use dcont  dcont_42
+timestamp 1524640050
+transform 1 0 1086 0 1 476
+box -20 -20 20 20
+use dcont  dcont_43
+timestamp 1524640050
+transform 1 0 1086 0 1 436
+box -20 -20 20 20
+use pcont  pcont_0
+timestamp 1524640050
+transform 1 0 116 0 1 376
+box -20 -20 20 20
+use Via  Via_0
+timestamp 1524640050
+transform 1 0 446 0 1 374
+box 0 0 1 1
+use pcont  pcont_1
+timestamp 1524640050
+transform 1 0 446 0 1 374
+box -20 -20 20 20
+use Via  Via_1
+timestamp 1524640050
+transform 1 0 566 0 1 374
+box 0 0 1 1
+use pcont  pcont_2
+timestamp 1524640050
+transform 1 0 566 0 1 374
+box -20 -20 20 20
+use Via  Via_2
+timestamp 1524640050
+transform 1 0 766 0 1 374
+box 0 0 1 1
+use pcont  pcont_3
+timestamp 1524640050
+transform 1 0 766 0 1 374
+box -20 -20 20 20
+use pcont  pcont_4
+timestamp 1524640050
+transform 1 0 346 0 1 320
+box -20 -20 20 20
+use pcont  pcont_5
+timestamp 1524640050
+transform 1 0 626 0 1 334
+box -20 -20 20 20
+use pcont  pcont_6
+timestamp 1524640050
+transform 1 0 986 0 1 344
+box -20 -20 20 20
+use pcont  pcont_7
+timestamp 1524640050
+transform 1 0 1046 0 1 378
+box -20 -20 20 20
+use pcont  pcont_8
+timestamp 1524640050
+transform 1 0 106 0 1 260
+box -20 -20 20 20
+use pcont  pcont_9
+timestamp 1524640050
+transform 1 0 206 0 1 260
+box -20 -20 20 20
+use pcont  pcont_10
+timestamp 1524640050
+transform 1 0 306 0 1 260
+box -20 -20 20 20
+use pcont  pcont_11
+timestamp 1524640050
+transform 1 0 566 0 1 260
+box -20 -20 20 20
+use pcont  pcont_12
+timestamp 1524640050
+transform 1 0 666 0 1 274
+box -20 -20 20 20
+use pcont  pcont_13
+timestamp 1524640050
+transform 1 0 766 0 1 280
+box -20 -20 20 20
+use Via  Via_3
+timestamp 1524640050
+transform 1 0 880 0 1 230
+box 0 0 1 1
+use Via  Via_4
+timestamp 1524640050
+transform 1 0 1090 0 1 230
+box 0 0 1 1
+use Via  Via_5
+timestamp 1524640050
+transform 1 0 90 0 1 200
+box 0 0 1 1
+use pcont  pcont_14
+timestamp 1524640050
+transform 1 0 90 0 1 200
+box -20 -20 20 20
+use Via  Via_6
+timestamp 1524640050
+transform 1 0 240 0 1 200
+box 0 0 1 1
+use pcont  pcont_15
+timestamp 1524640050
+transform 1 0 240 0 1 200
+box -20 -20 20 20
+use Via  Via_7
+timestamp 1524640050
+transform 1 0 446 0 1 200
+box 0 0 1 1
+use pcont  pcont_16
+timestamp 1524640050
+transform 1 0 446 0 1 200
+box -20 -20 20 20
+use pcont  pcont_17
+timestamp 1524640050
+transform 1 0 506 0 1 200
+box -20 -20 20 20
+use pcont  pcont_18
+timestamp 1524640050
+transform 1 0 880 0 1 230
+box -20 -20 20 20
+use pcont  pcont_19
+timestamp 1524640050
+transform 1 0 986 0 1 174
+box -20 -20 20 20
+use pcont  pcont_20
+timestamp 1524640050
+transform 1 0 116 0 1 134
+box -20 -20 20 20
+use pcont  pcont_21
+timestamp 1524640050
+transform 1 0 296 0 1 134
+box -20 -20 20 20
+use pcont  pcont_22
+timestamp 1524640050
+transform 1 0 406 0 1 134
+box -20 -20 20 20
+use Via  Via_8
+timestamp 1524640050
+transform 1 0 546 0 1 134
+box 0 0 1 1
+use pcont  pcont_23
+timestamp 1524640050
+transform 1 0 546 0 1 134
+box -20 -20 20 20
+use Via  Via_9
+timestamp 1524640050
+transform 1 0 816 0 1 134
+box 0 0 1 1
+use pcont  pcont_24
+timestamp 1524640050
+transform 1 0 816 0 1 134
+box -20 -20 20 20
+use pcont  pcont_25
+timestamp 1524640050
+transform 1 0 1046 0 1 134
+box -20 -20 20 20
+use dcont  dcont_44
+timestamp 1524640050
+transform 1 0 36 0 1 74
+box -20 -20 20 20
+use dcont  dcont_45
+timestamp 1524640050
+transform 1 0 96 0 1 74
+box -20 -20 20 20
+use dcont  dcont_46
+timestamp 1524640050
+transform 1 0 156 0 1 74
+box -20 -20 20 20
+use dcont  dcont_47
+timestamp 1524640050
+transform 1 0 226 0 1 74
+box -20 -20 20 20
+use dcont  dcont_48
+timestamp 1524640050
+transform 1 0 326 0 1 74
+box -20 -20 20 20
+use dcont  dcont_49
+timestamp 1524640050
+transform 1 0 426 0 1 74
+box -20 -20 20 20
+use dcont  dcont_50
+timestamp 1524640050
+transform 1 0 526 0 1 74
+box -20 -20 20 20
+use dcont  dcont_51
+timestamp 1524640050
+transform 1 0 596 0 1 74
+box -20 -20 20 20
+use dcont  dcont_52
+timestamp 1524640050
+transform 1 0 696 0 1 74
+box -20 -20 20 20
+use dcont  dcont_53
+timestamp 1524640050
+transform 1 0 796 0 1 74
+box -20 -20 20 20
+use dcont  dcont_54
+timestamp 1524640050
+transform 1 0 896 0 1 74
+box -20 -20 20 20
+use dcont  dcont_55
+timestamp 1524640050
+transform 1 0 966 0 1 74
+box -20 -20 20 20
+use dcont  dcont_56
+timestamp 1524640050
+transform 1 0 1026 0 1 74
+box -20 -20 20 20
+use dcont  dcont_57
+timestamp 1524640050
+transform 1 0 1086 0 1 74
+box -20 -20 20 20
+use psubcont  psubcont_0
+timestamp 1524640050
+transform 1 0 204 0 1 10
+box -20 -20 20 20
+use psubcont  psubcont_1
+timestamp 1524640050
+transform 1 0 554 0 1 10
+box -20 -20 20 20
+use psubcont  psubcont_2
+timestamp 1524640050
+transform 1 0 1000 0 1 10
+box -20 -20 20 20
+<< labels >>
+flabel space 1096 248 1096 248 2 FreeSans 160 0 0 0 Q
+flabel space 6 20 6 20 2 FreeSans 160 0 0 0 VSS
+flabel space 6 570 6 570 2 FreeSans 160 0 0 0 VDD
+flabel space 891 248 891 248 2 FreeSans 160 0 0 0 S
+flabel space 224 218 224 218 2 FreeSans 160 0 0 0 D
+flabel space 86 216 86 216 2 FreeSans 160 0 0 0 CK
+<< end >>

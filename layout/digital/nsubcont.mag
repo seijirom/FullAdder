@@ -1,0 +1,10 @@
+magic
+tech scmos
+timestamp 1524640050
+<< checkpaint >>
+rect -40 -40 40 40
+<< fillm3 >>
+rect -10 -10 10 10
+<< labels >>
+flabel fillm3 0 0 0 0 0 FreeSans 12 0 0 0 NScont
+<< end >>

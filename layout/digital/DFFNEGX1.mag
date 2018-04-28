@@ -1,0 +1,163 @@
+magic
+tech scmos
+magscale 1 2
+timestamp 1524640050
+<< checkpaint >>
+rect -57 -65 573 375
+<< fillm1 >>
+rect 8 208 28 268
+rect 38 208 58 268
+rect 68 208 88 268
+rect 103 208 123 268
+rect 153 208 173 268
+rect 203 208 223 268
+rect 233 208 253 268
+rect 268 228 288 268
+rect 318 208 338 268
+rect 368 208 388 268
+rect 398 208 418 268
+rect 433 208 453 268
+rect 463 208 483 268
+rect 493 208 513 268
+rect 8 27 28 47
+rect 38 27 58 47
+rect 68 27 88 47
+rect 103 27 123 47
+rect 153 27 173 47
+rect 203 27 223 47
+rect 233 27 253 47
+rect 268 27 288 47
+rect 318 27 338 47
+rect 368 27 388 47
+rect 398 27 418 47
+rect 433 27 453 47
+rect 463 27 483 47
+rect 493 27 513 47
+<< fillm2 >>
+rect 48 178 68 198
+rect 213 177 233 197
+rect 258 177 278 197
+rect 378 177 398 197
+rect 163 150 183 170
+rect 308 157 328 177
+rect 443 162 463 182
+rect 473 179 493 199
+rect 43 120 63 140
+rect 93 120 113 140
+rect 143 120 163 140
+rect 278 120 298 140
+rect 328 127 348 147
+rect 358 130 378 150
+rect 33 90 53 110
+rect 110 90 130 110
+rect 213 90 233 110
+rect 443 77 463 97
+rect 48 57 68 77
+rect 138 57 158 77
+rect 193 57 213 77
+rect 258 57 278 77
+rect 378 57 398 77
+rect 473 57 493 77
+<< fillm3 >>
+rect 82 275 122 315
+rect 257 275 297 315
+rect 440 275 480 315
+<< fillm4 >>
+rect 92 -5 112 15
+rect 267 -5 287 15
+rect 450 -5 470 15
+<< labels >>
+flabel space 3 10 3 10 2 FreeSans 80 0 0 0 VSS
+flabel space 3 285 3 285 2 FreeSans 80 0 0 0 VDD
+flabel fillm1 18 258 18 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 18 37 18 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 18 218 18 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 18 238 18 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 43 100 43 100 0 FreeSans 24 0 0 0 via
+flabel fillm2 43 100 43 100 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 48 37 48 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 48 258 48 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 48 218 48 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 48 238 48 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 43 109 43 109 2 FreeSans 80 0 0 0 CK
+flabel fillm2 53 130 53 130 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 58 67 58 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 58 188 58 188 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 78 37 78 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 78 218 78 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 78 238 78 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 78 258 78 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm4 102 5 102 5 0 FreeSans 24 0 0 0 PScon
+flabel fillm3 102 295 102 295 0 FreeSans 24 0 0 0 NScont
+flabel fillm2 103 130 103 130 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 113 37 113 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 113 258 113 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 113 238 113 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 113 218 113 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 111 109 111 109 2 FreeSans 80 0 0 0 D
+flabel fillm2 120 100 120 100 0 FreeSans 24 0 0 0 via
+flabel fillm2 120 100 120 100 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 148 67 148 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 153 130 153 130 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 163 37 163 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 163 238 163 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 163 258 163 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 163 218 163 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 173 160 173 160 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 203 67 203 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 213 37 213 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 213 258 213 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 213 238 213 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 213 218 213 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 223 100 223 100 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 223 187 223 187 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 243 37 243 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 243 258 243 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 243 238 243 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 243 218 243 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 268 187 268 187 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 268 67 268 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm4 277 5 277 5 0 FreeSans 24 0 0 0 PScon
+flabel fillm3 277 295 277 295 0 FreeSans 24 0 0 0 NScont
+flabel fillm1 278 37 278 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 278 238 278 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 278 258 278 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 288 130 288 130 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 318 167 318 167 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 328 37 328 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 328 258 328 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 328 238 328 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 328 218 328 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 338 137 338 137 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 368 140 368 140 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 378 37 378 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 378 258 378 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 378 238 378 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 378 218 378 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 388 67 388 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 388 187 388 187 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 408 37 408 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 408 258 408 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 408 238 408 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 408 218 408 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 443 258 443 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 443 238 443 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 443 218 443 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 443 37 443 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 453 172 453 172 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 453 87 453 87 0 FreeSans 24 0 0 0 pcont
+flabel fillm4 460 5 460 5 0 FreeSans 24 0 0 0 PScon
+flabel fillm3 460 295 460 295 0 FreeSans 24 0 0 0 NScont
+flabel fillm1 473 258 473 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 473 238 473 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 473 218 473 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 473 37 473 37 0 FreeSans 24 0 0 0 dcont
+flabel fillm2 483 189 483 189 0 FreeSans 24 0 0 0 pcont
+flabel fillm2 483 67 483 67 0 FreeSans 24 0 0 0 pcont
+flabel fillm1 503 258 503 258 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 503 238 503 238 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 503 218 503 218 0 FreeSans 24 0 0 0 dcont
+flabel fillm1 503 37 503 37 0 FreeSans 24 0 0 0 dcont
+flabel space 505 115 505 115 0 FreeSans 24 0 0 0 via
+flabel space 508 123 508 123 2 FreeSans 80 0 0 0 Q
+<< end >>
