@@ -6,18 +6,18 @@
 .gate INVX1 A=rst Y=_11_
 .gate INVX1 A=ci Y=_12_
 .gate INVX1 A=a Y=_13_
-.gate NAND2X1 A=_15_ B=_1_ Y=_14_
+.gate NAND2X1 A=_12_ B=_13_ Y=_14_
 .gate NAND2X1 A=ci B=a Y=_1_
-.gate NAND2X1 A=_3_ B=_2_ Y=_2_
-.gate NAND2X1 A=b B=_4_ Y=_3_
+.gate NAND2X1 A=_1_ B=_14_ Y=_2_
+.gate NAND2X1 A=b B=_2_ Y=_3_
 .gate INVX1 A=b Y=_4_
-.gate NAND2X1 A=ci B=_1_ Y=_5_
-.gate NAND2X1 A=a B=_15_ Y=_6_
-.gate NAND2X1 A=_7_ B=_8_ Y=_7_
-.gate NAND2X1 A=_6_ B=_9_ Y=_8_
-.gate NAND2X1 A=_5_ B=_10_ Y=_9_
-.gate NAND2X1 A=_14_ B=_11_ Y=_10_
-.gate INVX1 A=_12_ Y=_0_
+.gate NAND2X1 A=ci B=_13_ Y=_5_
+.gate NAND2X1 A=a B=_12_ Y=_6_
+.gate NAND2X1 A=_5_ B=_6_ Y=_7_
+.gate NAND2X1 A=_4_ B=_7_ Y=_8_
+.gate NAND2X1 A=_3_ B=_8_ Y=_9_
+.gate NAND2X1 A=_11_ B=_9_ Y=_10_
+.gate INVX1 A=_10_ Y=_0_
 .gate BUFX2 A=_15_ Y=s
 .gate BUFX2 A=gnd Y=co
 .gate DFFPOSX1 CLK=ck D=_0_ Q=_15_

@@ -1,14 +1,14 @@
-read_liberty -lib -ignore_miss_dir -setattr blackbox /usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lib
+read_liberty -lib -ignore_miss_dir -setattr blackbox /usr/local/share/qflow/tech/OR1/OR1_stdcells.lib
 read_verilog  /mnt/c/Users/seijirom/work/FullAdder_or1u/source/fa.v
 
 # High-level synthesis
 synth -top fa
 # Map register flops
-dfflibmap -liberty /usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lib
+dfflibmap -liberty /usr/local/share/qflow/tech/OR1/OR1_stdcells.lib
 opt
 
 # Map combinatorial cells, standard script
-abc -exe /usr/local/share/qflow/bin/yosys-abc -liberty /usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
+abc -exe /usr/local/share/qflow/bin/yosys-abc -liberty /usr/local/share/qflow/tech/OR1/OR1_stdcells.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
 flatten
 
 clean -purge

@@ -1,7 +1,7 @@
-Qflow route logfile created on 2018年 4月 28日 土曜日 20:27:52 JST
+Qflow route logfile created on 2018年 4月 28日 土曜日 21:57:42 JST
 Qrouter detail maze router version 1.3.91.T
 No Top-level Tk window available. . .
-Reading LEF data from file /usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lef.
+Reading LEF data from file /usr/local/share/qflow/tech/OR1/OR1_stdcells.lef.
 LEF Read, Line 106: Don't know how to parse layer "via1"
 LEF Read, Line 107: No layer defined for RECT.
 LEF Read, Line 115: Don't know how to parse layer "via2"
@@ -38,1828 +38,206 @@ LEF file:  Defines site IO (ignored)
 LEF file:  Defines site core (ignored)
 LEF Read, Line 235: Unknown keyword "SHAPE" in LEF file; ignoring.
 LEF Read, Line 244: Unknown keyword "SHAPE" in LEF file; ignoring.
-LEF Read, Line 588: Macro END statement missing.
-LEF Read, Line 590: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 669: Macro END statement missing.
-LEF Read, Line 671: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 766: Macro END statement missing.
-LEF Read, Line 768: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 774: Macro END statement missing.
-LEF Read, Line 776: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 782: Macro END statement missing.
-LEF Read, Line 784: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 790: Macro END statement missing.
-LEF Read, Line 792: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 798: Macro END statement missing.
-LEF Read, Line 800: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 827: Macro END statement missing.
-LEF Read, Line 829: Unknown keyword "MACRO" in LEF file; ignoring.
+LEF Read, Line 774: Gate dcont has no size information!
+LEF Read, Line 782: Gate nsubcont has no size information!
+LEF Read, Line 790: Gate pcont has no size information!
+LEF Read, Line 798: Gate psubcont has no size information!
 LEF Read, Line 847: Unknown keyword "CLASS" in LEF file; ignoring.
-LEF Read, Line 875: Macro END statement missing.
-LEF Read, Line 877: Unknown keyword "MACRO" in LEF file; ignoring.
 LEF Read, Line 895: Unknown keyword "CLASS" in LEF file; ignoring.
-LEF Read, Line 924: Macro END statement missing.
-LEF Read, Line 926: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 976: Macro END statement missing.
-LEF Read, Line 978: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 1048: Macro END statement missing.
-LEF Read, Line 1050: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 1073: Macro END statement missing.
-LEF Read, Line 1075: Unknown keyword "MACRO" in LEF file; ignoring.
-LEF Read, Line 1130: Macro END statement missing.
-LEF Read, Line 1134: Macro END statement missing.
 LEF read: Processed 1134 lines.
-LEF Read: encountered 63 errors total.
+LEF Read: encountered 39 errors total.
 Multiple vertical route layers at different pitches.  Using smaller pitch 1.6, will route on 1-of-N tracks if necessary.
 Reading DEF data from file fa.def.
 Diagnostic: Design name: "fa"
 Multiple vertical route layers at different pitches.  Using pitch 1.6 and routing on 1-of-N tracks for larger pitches.
 Multiple vertical route layers at different pitches.  Using pitch 1.6 and routing on 1-of-N tracks for larger pitches.
-LEF Read, Line 16: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 17: Could not find a macro definition for "INVX1"
-LEF Read, Line 18: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 19: Could not find a macro definition for "INVX1"
-LEF Read, Line 20: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 21: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 22: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 23: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 24: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 25: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 26: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 27: Could not find a macro definition for "INVX1"
-LEF Read, Line 30: Could not find a macro definition for "DFFNEGX1"
-LEF Read, Line 31: Could not find a macro definition for "INVX1"
-LEF Read, Line 32: Could not find a macro definition for "INVX1"
-LEF Read, Line 33: Could not find a macro definition for "NAND2X1"
-LEF Read, Line 34: Could not find a macro definition for "INVX1"
-  Processed 19 subcell instances total.
+  Processed 21 subcell instances total.
   Processed 7 pins total.
-  Processed 25 nets total.
-DEF read: Processed 145 lines.
-LEF Read: encountered 17 errors total.
+  Processed 24 nets total.
+DEF read: Processed 144 lines.
 Output scale = microns / 100, precision 1
-There are 25 nets in this design.
+There are 24 nets in this design.
 *** Running stage1 routing with defaults
-Finished routing net co
-Nets remaining: 24
-Finished routing net s
+Finished routing net ci
 Nets remaining: 23
-Finished routing net gnd
+Finished routing net a
+Nets remaining: 22
+Error:  Failure to find route end node/route!
+Finished routing net _12_
+Nets remaining: 21
+Finished routing net _13_
+Nets remaining: 20
+Finished routing net b
+Nets remaining: 19
+Finished routing net rst
+Nets remaining: 18
+Error:  Failure to find route end node/route!
+Finished routing net _11_
 Nets remaining: 17
+Finished routing net _14_
+Nets remaining: 16
+Finished routing net _1_
+Nets remaining: 15
+Finished routing net _2_
+Nets remaining: 14
+Error:  Failure to find route end node/route!
+Finished routing net _3_
+Nets remaining: 13
+Error:  Failure to find route end node/route!
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _5_
+Nets remaining: 11
+Finished routing net _6_
+Nets remaining: 10
+Finished routing net _7_
+Nets remaining: 9
+Finished routing net _8_
+Nets remaining: 8
+Finished routing net _9_
+Nets remaining: 7
+Error:  Failure to find route end node/route!
+Finished routing net _10_
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net _15_
+Nets remaining: 4
+Finished routing net s
+Nets remaining: 3
+Finished routing net co
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
 
 ----------------------------------------------
-Progress: Stage 1 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 10, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 20, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 30, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 40, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 50, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 60, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 70, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 80, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 90, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask 100, effort 10
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 10; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none, effort 30
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 30; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none, effort 40
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 40; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 2
-Failed net routes: 1
+Progress: Stage 1 total routes completed: 31
+No failed routes!
 ----------------------------------------------
 *** Running stage3 routing with defaults, 1st round
-Finished routing net co
-Nets remaining: 24
-Finished routing net s
+Finished routing net ci
 Nets remaining: 23
-Finished routing net gnd
+Finished routing net a
+Nets remaining: 22
+Error:  Failure to find route end node/route!
+Finished routing net _12_
+Nets remaining: 21
+Finished routing net _13_
+Nets remaining: 20
+Finished routing net b
+Nets remaining: 19
+Finished routing net rst
+Nets remaining: 18
+Error:  Failure to find route end node/route!
+Finished routing net _11_
 Nets remaining: 17
+Finished routing net _14_
+Nets remaining: 16
+Finished routing net _1_
+Nets remaining: 15
+Finished routing net _2_
+Nets remaining: 14
+Error:  Failure to find route end node/route!
+Finished routing net _3_
+Nets remaining: 13
+Error:  Failure to find route end node/route!
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _5_
+Nets remaining: 11
+Finished routing net _6_
+Nets remaining: 10
+Finished routing net _7_
+Nets remaining: 9
+Finished routing net _8_
+Nets remaining: 8
+Finished routing net _9_
+Nets remaining: 7
+Error:  Failure to find route end node/route!
+Finished routing net _10_
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net _15_
+Nets remaining: 4
+Finished routing net s
+Nets remaining: 3
+Finished routing net co
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 4
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 4
-Failed net routes: 1
+Progress: Stage 3 total routes completed: 62
+No failed routes!
 ----------------------------------------------
 *** Running stage3 routing with defaults, 2nd round
-Finished routing net co
-Nets remaining: 24
-Finished routing net s
+Finished routing net ci
 Nets remaining: 23
-Finished routing net gnd
+Finished routing net a
+Nets remaining: 22
+Error:  Failure to find route end node/route!
+Finished routing net _12_
+Nets remaining: 21
+Finished routing net _13_
+Nets remaining: 20
+Finished routing net b
+Nets remaining: 19
+Finished routing net rst
+Nets remaining: 18
+Error:  Failure to find route end node/route!
+Finished routing net _11_
 Nets remaining: 17
+Finished routing net _14_
+Nets remaining: 16
+Finished routing net _1_
+Nets remaining: 15
+Finished routing net _2_
+Nets remaining: 14
+Error:  Failure to find route end node/route!
+Finished routing net _3_
+Nets remaining: 13
+Error:  Failure to find route end node/route!
+Finished routing net _4_
+Nets remaining: 12
+Finished routing net _5_
+Nets remaining: 11
+Finished routing net _6_
+Nets remaining: 10
+Finished routing net _7_
+Nets remaining: 9
+Finished routing net _8_
+Nets remaining: 8
+Finished routing net _9_
+Nets remaining: 7
+Error:  Failure to find route end node/route!
+Finished routing net _10_
+Nets remaining: 6
+Finished routing net _0_
+Nets remaining: 5
+Finished routing net _15_
+Nets remaining: 4
+Finished routing net s
+Nets remaining: 3
+Finished routing net co
+Nets remaining: 2
+Finished routing net ck
+Nets remaining: 1
+Finished routing net gnd
+Nets remaining: 0
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 6
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 6
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 6
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 6
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 6
-Failed net routes: 1
-----------------------------------------------
-*** Running stage2 routing with options mask none
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-Nets remaining: 1
-
-No progress at level of effort 100; ending 2nd stage.
-
-----------------------------------------------
-Progress: Stage 2 total routes completed: 6
-Failed net routes: 1
+Progress: Stage 3 total routes completed: 93
+No failed routes!
 ----------------------------------------------
 *** Writing DEF file fa_route.def
 ----------------------------------------------
-Final: Failed net routes: 1
-List of failed nets follows:
- gnd
-
+Final: No failed routes!
 ----------------------------------------------
-Router script ended on 2018年 4月 28日 土曜日 20:27:56 JST
+Route segment 0 was not walked!
+No driver for net _10_
+Router script ended on 2018年 4月 28日 土曜日 21:57:43 JST

@@ -5,172 +5,246 @@ BUSBITCHARS "<>" ;
 DESIGN fa ;
 UNITS DISTANCE MICRONS 100 ;
 
-DIEAREA ( -480.0 0.0 ) ( 11040.0 6400.0 ) ;
+DIEAREA ( -480.0 -400.0 ) ( 11040.0 6400.0 ) ;
 
-TRACKS Y 0.0 DO 33 STEP 200 LAYER metal1 ;
+TRACKS Y -400.0 DO 35 STEP 200 LAYER metal1 ;
 TRACKS X -480.0 DO 73 STEP 160.0 LAYER metal2 ;
-TRACKS Y 0.0 DO 33 STEP 200 LAYER metal3 ;
+TRACKS Y -400.0 DO 35 STEP 200 LAYER metal3 ;
 TRACKS X -480.0 DO 37 STEP 320.0 LAYER metal4 ;
 
-COMPONENTS 19 ;
-- NAND2X1_2 NAND2X1 + PLACED ( 80.0 100 ) FS ;
-- INVX1_2 INVX1 + PLACED ( 1030.0 100 ) FS ;
-- NAND2X1_5 NAND2X1 + PLACED ( 1680.0 100 ) FS ;
-- INVX1_3 INVX1 + PLACED ( 2630.0 100 ) S ;
-- NAND2X1_6 NAND2X1 + PLACED ( 3280.0 100 ) FS ;
-- NAND2X1_1 NAND2X1 + PLACED ( 4230.0 100 ) FS ;
-- NAND2X1_7 NAND2X1 + PLACED ( 5180.0 100 ) FS ;
-- NAND2X1_3 NAND2X1 + PLACED ( 6130.0 100 ) FS ;
-- NAND2X1_4 NAND2X1 + PLACED ( 7080.0 100 ) S ;
-- NAND2X1_9 NAND2X1 + PLACED ( 8030.0 100 ) FS ;
-- NAND2X1_8 NAND2X1 + PLACED ( 8980.0 100 ) S ;
-- INVX1_4 INVX1 + PLACED ( 9930.0 100 ) S ;
-- BUFX2_1 BUFX2 + PLACED ( 80.0 3100 ) N ;
-- BUFX2_2 BUFX2 + PLACED ( 1330.0 3100 ) FN ;
-- DFFNEGX1_1 DFFNEGX1 + PLACED ( 2580.0 3100 ) FN ;
-- INVX1_6 INVX1 + PLACED ( 7780.0 3100 ) N ;
-- INVX1_5 INVX1 + PLACED ( 8430.0 3100 ) FN ;
-- NAND2X1_10 NAND2X1 + PLACED ( 9080.0 3100 ) FN ;
-- INVX1_1 INVX1 + PLACED ( 10030.0 3100 ) FN ;
+COMPONENTS 21 ;
+- BUFX2_1 BUFX2 + PLACED ( 80.0 100 ) S ;
+- DFFPOSX1_1 DFFPOSX1 + PLACED ( 1330.0 100 ) S ;
+- NAND2X1_3 NAND2X1 + PLACED ( 6530.0 100 ) S ;
+- NAND2X1_1 NAND2X1 + PLACED ( 7480.0 100 ) S ;
+- NAND2X1_2 NAND2X1 + PLACED ( 8430.0 100 ) S ;
+- INVX1_2 INVX1 + PLACED ( 9380.0 100 ) S ;
+- FILL_1_1 FILL + PLACED ( 10030.0 100 ) S ;
+- FILL_1_2 FILL + PLACED ( 10190.0 100 ) S ;
+- FILL_1_3 FILL + PLACED ( 10350.0 100 ) S ;
+- BUFX2_2 BUFX2 + PLACED ( 80.0 3100 ) N ;
+- INVX1_1 INVX1 + PLACED ( 1330.0 3100 ) FN ;
+- NAND2X1_10 NAND2X1 + PLACED ( 1980.0 3100 ) N ;
+- INVX1_5 INVX1 + PLACED ( 2930.0 3100 ) N ;
+- NAND2X1_9 NAND2X1 + PLACED ( 3580.0 3100 ) FN ;
+- NAND2X1_4 NAND2X1 + PLACED ( 4530.0 3100 ) FN ;
+- NAND2X1_8 NAND2X1 + PLACED ( 5480.0 3100 ) FN ;
+- INVX1_4 INVX1 + PLACED ( 6430.0 3100 ) N ;
+- NAND2X1_7 NAND2X1 + PLACED ( 7080.0 3100 ) FN ;
+- NAND2X1_6 NAND2X1 + PLACED ( 8030.0 3100 ) FN ;
+- NAND2X1_5 NAND2X1 + PLACED ( 8980.0 3100 ) FN ;
+- INVX1_3 INVX1 + PLACED ( 9930.0 3100 ) FN ;
 END COMPONENTS
 
 PINS 7 ;
 - ck + NET ck
   + LAYER metal2 ( 0 0 ) ( 1 1 )
-  + PLACED ( 7840.0 6400.0 ) N ;
+  + PLACED ( 6080.0 -200.0 ) N ;
 - rst + NET rst
-  + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( 11040.0 4600.0 ) N ;
-- a + NET a
-  + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( -160.0 2200.0 ) N ;
-- b + NET b
-  + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( 11040.0 1600.0 ) N ;
-- ci + NET ci
-  + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( -160.0 1600.0 ) N ;
-- s + NET s
   + LAYER metal2 ( 0 0 ) ( 1 1 )
   + PLACED ( 1920.0 6400.0 ) N ;
+- a + NET a
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( 10880.0 4600.0 ) N ;
+- b + NET b
+  + LAYER metal2 ( 0 0 ) ( 1 1 )
+  + PLACED ( 6560.0 6400.0 ) N ;
+- ci + NET ci
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( 10880.0 1600.0 ) N ;
+- s + NET s
+  + LAYER metal3 ( 0 0 ) ( 1 1 )
+  + PLACED ( -160.0 1800.0 ) N ;
 - co + NET co
   + LAYER metal3 ( 0 0 ) ( 1 1 )
   + PLACED ( -160.0 4400.0 ) N ;
 END PINS
 
-NETS 25 ;
+NETS 24 ;
 - rst
   ( PIN rst ) 
   ( INVX1_1 A ) 
-;
-- _14_
++ ROUTED metal2 ( 1920 6400 ) ( * 4600 ) M2_M1 
+  NEW metal1 ( 1920 4600 ) ( 1910 * ) ;
+- _11_
   ( NAND2X1_10 A ) 
   ( INVX1_1 Y ) 
-;
++ ROUTED metal1 ( 2080 4600 ) ( * 4400 ) ( 1600 * ) M2_M1 ;
 - ci
   ( PIN ci ) 
   ( NAND2X1_5 A ) 
   ( NAND2X1_2 A ) 
   ( INVX1_2 A ) 
-;
-- _15_
++ ROUTED metal1 ( 9280 1600 ) ( 9760 * ) 
+  NEW metal3 ( 10880 1600 ) ( 10560 * ) M3_M2 
+  NEW metal1 ( 10560 1600 ) M2_M1 
+  NEW metal1 ( 10560 1600 ) ( 9920 * ) 
+  NEW metal1 ( 9760 4600 ) M2_M1 
+  NEW metal2 ( 9760 4600 ) ( * 1600 ) M2_M1 ;
+- _12_
   ( NAND2X1_6 B ) 
   ( NAND2X1_1 A ) 
   ( INVX1_2 Y ) 
-;
++ ROUTED metal1 ( 8320 1600 ) ( * 1800 ) ( 9440 * ) M2_M1 
+  NEW metal1 ( 8480 4000 ) ( * 3800 ) ( 9440 * ) M2_M1 
+  NEW metal2 ( 9440 3800 ) ( * 2000 ) ;
 - a
   ( PIN a ) 
   ( NAND2X1_6 A ) 
   ( NAND2X1_2 B ) 
   ( INVX1_3 A ) 
-;
-- _1_
++ ROUTED metal3 ( 10880 4600 ) ( 10560 * ) M3_M2 
+  NEW metal1 ( 10560 4600 ) M2_M1 
+  NEW metal1 ( 10560 4600 ) ( 10510 * ) 
+  NEW metal1 ( 8800 4600 ) M2_M1 
+  NEW metal2 ( 8800 4600 ) M3_M2 
+  NEW metal3 ( 8800 4600 ) ( 10560 * ) 
+  NEW metal1 ( 8800 2200 ) M2_M1 
+  NEW metal2 ( 8800 2200 ) ( * 4600 ) ;
+- _13_
   ( NAND2X1_5 B ) 
   ( NAND2X1_1 B ) 
   ( INVX1_3 Y ) 
-;
-- _2_
++ ROUTED metal1 ( 9440 4000 ) M2_M1 
+  NEW metal2 ( 9440 4000 ) ( * 4200 ) M3_M2 
+  NEW metal3 ( 9440 4200 ) ( 9920 * ) M3_M2 
+  NEW metal2 ( 9920 4200 ) ( 9950 * ) 
+  NEW metal1 ( 8000 2200 ) M2_M1 
+  NEW metal2 ( 8000 2200 ) ( * 4200 ) M3_M2 
+  NEW metal3 ( 8000 4200 ) ( 9440 * ) ;
+- _14_
   ( NAND2X1_3 B ) 
   ( NAND2X1_1 Y ) 
-;
-- _3_
++ ROUTED metal1 ( 7040 2200 ) ( 7520 * ) M2_M1 
+  NEW metal2 ( 7520 2200 ) ( * 1800 ) ( 7560 * ) ;
+- _1_
   ( NAND2X1_3 A ) 
   ( NAND2X1_2 Y ) 
-;
-- _4_
++ ROUTED metal1 ( 7360 1600 ) M2_M1 
+  NEW metal2 ( 7360 1600 ) M3_M2 
+  NEW metal3 ( 7360 1600 ) ( 8480 * ) M3_M2 
+  NEW metal2 ( 8480 1600 ) ( 8510 * ) ;
+- _2_
   ( NAND2X1_4 B ) 
   ( NAND2X1_3 Y ) 
-;
++ ROUTED metal1 ( 4960 4000 ) ( * 3800 ) ( 6560 * ) M2_M1 
+  NEW metal2 ( 6560 3800 ) ( * 1800 ) ( 6610 * ) ;
 - b
   ( PIN b ) 
   ( INVX1_4 A ) 
   ( NAND2X1_4 A ) 
-;
-- _5_
++ ROUTED metal1 ( 6560 4600 ) M2_M1 
+  NEW metal2 ( 6560 4600 ) M3_M2 
+  NEW metal3 ( 6560 4600 ) ( 5920 * ) M3_M2 
+  NEW metal1 ( 5920 4600 ) M2_M1 
+  NEW metal1 ( 5920 4600 ) ( 5440 * ) ( 5410 * ) 
+  NEW metal2 ( 6560 6400 ) ( * 4600 ) ;
+- _3_
   ( NAND2X1_9 A ) 
   ( NAND2X1_4 Y ) 
-;
-- _6_
++ ROUTED metal1 ( 4320 4600 ) ( * 4400 ) ( 4640 * ) M2_M1 ;
+- _4_
   ( NAND2X1_8 A ) 
   ( INVX1_4 Y ) 
-;
-- _7_
++ ROUTED metal1 ( 6240 4600 ) ( * 4400 ) ( 6880 * ) M2_M1 ;
+- _5_
   ( NAND2X1_7 A ) 
   ( NAND2X1_5 Y ) 
-;
-- _8_
++ ROUTED metal1 ( 7840 4600 ) M2_M1 
+  NEW metal2 ( 7840 4600 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 7840 4800 ) ( 8960 * ) M3_M2 
+  NEW metal2 ( 8960 4800 ) ( * 4600 ) ( 9060 * ) ;
+- _6_
   ( NAND2X1_7 B ) 
   ( NAND2X1_6 Y ) 
-;
-- _9_
++ ROUTED metal1 ( 7520 4000 ) M2_M1 
+  NEW metal2 ( 7520 4000 ) ( * 4400 ) M3_M2 
+  NEW metal3 ( 7520 4400 ) ( 8000 * ) M3_M2 
+  NEW metal2 ( 8000 4400 ) ( 8110 * ) ;
+- _7_
   ( NAND2X1_8 B ) 
   ( NAND2X1_7 Y ) 
-;
-- _10_
++ ROUTED metal1 ( 5920 4000 ) M2_M1 
+  NEW metal2 ( 5920 4000 ) M3_M2 
+  NEW metal3 ( 5920 4000 ) ( 7200 * ) M3_M2 
+  NEW metal2 ( 7200 4000 ) ( * 4400 ) ;
+- _8_
   ( NAND2X1_9 B ) 
   ( NAND2X1_8 Y ) 
-;
-- _11_
++ ROUTED metal1 ( 4160 4000 ) M2_M1 
+  NEW metal2 ( 4160 4000 ) M3_M2 
+  NEW metal3 ( 4160 4000 ) ( 5440 * ) M3_M2 
+  NEW metal2 ( 5440 4000 ) ( * 4400 ) ( 5560 * ) ;
+- _9_
   ( NAND2X1_10 B ) 
   ( NAND2X1_9 Y ) 
-;
-- _12_
++ ROUTED metal1 ( 2560 4000 ) ( 3680 * ) M2_M1 
+  NEW metal2 ( 3680 4000 ) ( * 4400 ) ;
+- _10_
   ( INVX1_5 A ) 
   ( NAND2X1_10 Y ) 
-;
++ ROUTED metal1 ( 3040 4600 ) ( 2880 * ) M2_M1 ;
 - _0_
-  ( DFFNEGX1_1 D ) 
+  ( DFFPOSX1_1 D ) 
   ( INVX1_5 Y ) 
-;
-- ck
-  ( PIN ck ) 
-  ( INVX1_6 A ) 
-;
-- _13_
-  ( DFFNEGX1_1 CLK ) 
-  ( INVX1_6 Y ) 
-;
-- gnd
++ ROUTED metal2 ( 5280 2200 ) M3_M2 
+  NEW metal3 ( 5280 2200 ) ( 3520 * ) M3_M2 
+  NEW metal2 ( 3520 2200 ) ( * 4200 ) ;
+- _15_
+  ( DFFPOSX1_1 Q ) 
   ( BUFX2_1 A ) 
-;
-- co
-  ( PIN co ) 
-  ( BUFX2_1 Y ) 
-+ ROUTED metal3 ( -160 4400 ) ( 800 * ) M3_M2 
-  NEW metal2 ( 800 4400 ) ( * 4510 ) ;
-- _16_
-  ( DFFNEGX1_1 Q ) 
-  ( BUFX2_2 A ) 
-;
++ ROUTED metal2 ( 1440 2000 ) ( 1280 * ) ( * 1600 ) M2_M1 
+  NEW metal1 ( 1280 1600 ) ( 1260 * ) ;
 - s
   ( PIN s ) 
+  ( BUFX2_1 Y ) 
++ ROUTED metal3 ( -160 1800 ) ( 480 * ) M3_M2 
+  NEW metal2 ( 480 1800 ) ( * 1750 ) ;
+- gnd
+  ( BUFX2_2 A ) 
++ ROUTED metal1 ( 10400 2190 ) ( * 2200 ) ( * 2400 ) ( 640 * ) M2_M1 
+  NEW metal2 ( 640 2400 ) ( * 4600 ) M2_M1 
+  NEW metal1 ( 640 4600 ) ( 320 * ) ;
+- co
+  ( PIN co ) 
   ( BUFX2_2 Y ) 
-+ ROUTED metal2 ( 1920 6400 ) ( 1760 * ) ( * 4600 ) ;
++ ROUTED metal3 ( -160 4400 ) ( 800 * ) M3_M2 
+  NEW metal2 ( 800 4400 ) ( * 4510 ) ;
+- ck
+  ( PIN ck ) 
+  ( DFFPOSX1_1 CLK ) 
++ ROUTED metal2 ( 6080 -200 ) ( * 2000 ) M2_M1 ;
 END NETS
 
-SPECIALNETS 1 ;
+SPECIALNETS 14 ;
+- a
++ ROUTED metal1 80 ( 10590 4600 ) ( 10480 * ) ;
+- _13_
++ ROUTED metal2 80 ( 9890 4200 ) ( 9980 * ) ;
+- b
+;
+- rst
++ ROUTED metal1 80 ( 1950 4600 ) ( 1880 * ) ;
+- _14_
++ ROUTED metal2 80 ( 7490 1800 ) ( 7590 * ) ;
+- _1_
++ ROUTED metal2 80 ( 8450 1600 ) ( 8540 * ) ;
+- _2_
++ ROUTED metal2 80 ( 6530 1800 ) ( 6640 * ) ;
+- _5_
++ ROUTED metal2 80 ( 8930 4600 ) ( 9090 * ) ;
+- _6_
++ ROUTED metal2 80 ( 7970 4400 ) ( 8140 * ) ;
+- _8_
++ ROUTED metal2 80 ( 5410 4400 ) ( 5590 * ) ;
+- _15_
++ ROUTED metal1 80 ( 1310 1600 ) ( 1230 * ) ;
+- s
++ ROUTED metal2 80 ( 480 1830 ) ( * 1720 ) ;
 - co
 + ROUTED metal2 80 ( 800 4370 ) ( * 4540 ) ;
+- gnd
+;
 END SPECIALNETS
 
 END DESIGN

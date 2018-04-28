@@ -1,4 +1,4 @@
-Qflow synthesis logfile created on 2018年 4月 28日 土曜日 20:27:13 JST
+Qflow synthesis logfile created on 2018年 4月 28日 土曜日 21:57:27 JST
 Running yosys for verilog parsing and synthesis
 
  /----------------------------------------------------------------------------\
@@ -599,14 +599,14 @@ Running ABC command: /usr/local/share/qflow/bin/yosys-abc -s -f <abc-temp-dir>/a
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lib 
+ABC: + read_lib -w /usr/local/share/qflow/tech/OR1/OR1_stdcells.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.00 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFPOSX1".
 ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "osu035_stdcells" from "/usr/local/share/qflow/tech/OpenRule1um/OpenRule1um_stdcells.lib" has 3 cells (5 skipped: 1 seq; 0 tri-state; 4 no func).  Time =     0.00 sec
+ABC: Library "osu035_stdcells" from "/usr/local/share/qflow/tech/OR1/OR1_stdcells.lib" has 3 cells (5 skipped: 1 seq; 0 tri-state; 4 no func).  Time =     0.00 sec
 ABC: Memory =    0.04 MB. Time =     0.00 sec
 ABC: + strash 
 ABC: + scorr 
@@ -674,10 +674,10 @@ Removed 0 unused cells and 9 unused wires.
 
 10. Executing BLIF backend.
 
-End of script. Logfile hash: 8d529bb050
-CPU: user 0.11s system 0.03s, MEM: 291.36 MB total, 6.15 MB resident
+End of script. Logfile hash: 47afb677df
+CPU: user 0.09s system 0.03s, MEM: 291.36 MB total, 6.15 MB resident
 Yosys 0.7+381 (git sha1 8f2638a, gcc 5.4.0-6ubuntu1~16.04.5 -fPIC -Os)
-Time spent: 22% 2x abc (0 sec), 11% 18x opt_expr (0 sec), ...
+Time spent: 33% 17x opt_clean (0 sec), 16% 18x opt_expr (0 sec), ...
 Cleaning up output syntax
 Cleaning Up blif file syntax
 Running blifFanout (iterative)
@@ -710,4 +710,4 @@ Files:
 Running blif2Verilog.
 Running blif2BSpice.
 Running spi2xspice.py
-Synthesis script ended on 2018年 4月 28日 土曜日 20:27:17 JST
+Synthesis script ended on 2018年 4月 28日 土曜日 21:57:31 JST
